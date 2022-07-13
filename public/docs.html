@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;1,200;1,300&family=Gentium+Plus:ital,wght@0,400;0,700;1,400&family=Kdam+Thmor+Pro&family=Nuosu+SIL&family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;1,100;1,200;1,300;1,400&family=Roboto+Mono:ital,wght@0,400;0,600;1,300;1,400;1,500&family=Roboto:ital,wght@0,400;0,500;1,300;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/more.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="icon" href="img/icon.png">
+
+  <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+  <title>c23 docs</title>
+</head>
+
+<body>
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="activate" style="  font-style: 32px">c23-blogs </a>
+    <a class="mnp" href="editor">Editor</a>
+    <div class="userlogin">
+      <!--  -->
+    </div>
+    <a href="categories.html" class="mnp">Categories</a>
+
+    <div class="dropdown">
+      <button class="dropbtn mnp">
+        More
+      </button>
+      <div class="dropdown-content">
+
+        <a href="https://discord.gg/NA9gK7jWan"> Discord </a>
+
+        <a href="about-us.html">About us</a>
+        <a href="">Docs</a>
+
+        <!-- <a class="" href="support">Support us</a> -->
+      </div>
+    </div>
+    <a href="javascript:void(0);" style="font-size:15px; background-color: #0C090A; color:#ffffff" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+  <br>
+  <div onclick="topFunction()" id="myBtn" title="Go to top"> <span class="material-symbols-outlined">
+      arrow_upward
+    </span></div>
+  <script>
+    var mybutton = document.getElementById("myBtn");
+
+
+    window.onscroll = function() {
+      scrollFunction()
+    };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+  <h1>c23-blogs Documentation</h1>
+  <br>
+  <hr>
+  <br>
+  <div class="docspage">
+    <p>c23-blogs is a blogging website to write your amazing blogs. </p>
+    <br>
+    Guide
+    <ul>
+      <ul>
+        <li><a href="#howto">How to write a blog</a> </li>
+        <li> <a href="#precautions">Few points to keep in mind while writing a blog</a> </li>
+        <li> <a href="#rules">Rules</a> </li>
+        <li> <a href="#help">Help</a> </li>
+      </ul>
+
+    </ul>
+    <hr>
+    <h2 id="howto">How to write a blog</h2>
+    <br>
+    <p>This is how you write a blog on our website</p>
+    <ol>
+      <ol type="none">
+        <li> <strong>Go to Editor page</strong>
+          <p>You will find the option for the editor page in the navigation bar or on the menu after clicking on the hamburger lines &#9776; </p>
+          <img src="img/editorimg.png" class="inpageimg" alt="">
+          <br>
+          <p>If you haven't logged in, you will be redirected to login first and after login, you will be redirected to the editor page.</p>
+          <p>This is how editor page looks like</p>
+          <img src="img/editorpage.png" class="inpageimg" alt="">
+        </li>
+        <br>
+        <li> <strong>Upload a banner image for your blog</strong>
+          <p>Now click on the button indicated with arrow 1, to upload a banner image for your blog</p>
+          <img src="img/editor1.png" class="inpageimg" alt="">
+          <p>The preview for banner image may not look like you had in your mind, but I promise it'll look good in the blog.</p>
+          <p>For example-</p>
+          While editing-
+          <img src="img/bannerbefore.png" class="inpageimg" alt="">
+          After publishing
+          <img src="img/bannerafter.png" class="inpageimg" alt="">
+
+
+        </li>
+        <br>
+        <li> <strong>Write the title and your blog</strong>
+          <p>Write a title for your blog and start writing your blog</p>
+
+        </li>
+        <br>
+        <li> <strong>To upload images</strong>
+          <p>You can upload images where you want in your blog to make them look better</p>
+          <p>Just click on button indicated with arrow 3 to upload the image. </p>
+          <img src="img/editor2.png" class="inpageimg" alt="">
+          While editing
+          <img src="img/imagebefore.png" class="inpageimg" alt="">
+          After publishing
+          <img src="img/imageafter.png" class="inpageimg" alt="">
+
+          <p> <a href="#precautions">precautions</a> </p>
+        </li>
+        <br>
+        <li> <strong>Add headings in your blog</strong>
+          <p>There might be a heading you want to write for a paragraph. </p>
+          <p>To write a heading, start on a new line and initialize your heading with '/'. A single '/' means heading 1. Similarly, you can add headings from heading 1 to heading 6 by incrementing number of '/' initialising your heading. i.e. '//'
+            for heading 2, '///' for heading 2 and so on.</p>
+          <p>Also after writing the heading, start a new paragraph on the next line.</p>
+          <br>
+          <img src="img/headingbefore.png" class="inpageimg" alt="">
+          <br>
+          After publishing
+          <img src="img/headingafter.png" class="inpageimg" alt="">
+          <p> <a href="#precautions">precautions</a> </p>
+        </li>
+        <br>
+        <li> <strong>Add quotes to your blogs</strong>
+        <p>To add quote to your blog initialize your line with < and end with >. </p> </li>
+        <img src="img/quotebefore.png" class="inpageimg" alt="">
+        After publishing
+        <img src="img/quoteafter.png" class="inpageimg" alt="">
+        <br>
+        <li> <strong>Add links to your blog </strong>
+          <p>To add links to your blog, on a new line initialize with the '^' symbol, paste or type your link and close with the '^' symbol.</p>
+          While editing-
+          <img src="img/linkbefore.png" class="inpageimg" alt="">
+          After publishing-
+          <img src="img/linkafter.png" class="inpageimg" alt="">
+          <p> <a href="#precautions">precautions</a> </p>
+
+        </li>
+        <br>
+        <li> <strong>Add Youtube videos to your blog</strong>
+        <p>To add Youtube videos to your blog, on a new line initialize with the '~' symbol, put the part of the youtube link after /
+        <p>
+        <p>For example- 'https://youtu.be/QhsrBz9Cceg' is the link for your video then just put the 'QhsrBz9Cceg' part after the '~' tag.</p>
+        </p> And close with the '~' symbol while editing.</p>
+        While editing
+        <img src="img/ytbefore.png" class="inpageimg" alt="">
+        After publishing
+        <img src="img/ytafter.png" class="inpageimg" alt="">
+        <p> <a href="#precautions">precautions</a> </p>
+        </li>
+        <br>
+        <li> <strong>Add a category for your blogs.</strong>
+        <p>Add a category to your blogs by writing one of the following categories in the category text area</p>
+        <ul>
+          <li>essays</li>
+          <li>food</li>
+          <li>health and fitness</li>
+          <li>motivation</li>
+          <li>movies</li>
+          <li>mythology</li>
+          <li>personal</li>
+          <li>photography</li>
+          <li>projects</li>
+          <li>science and technology</li>
+          <li>travel</li>
+        </ul>
+      </li>
+      <br>
+        <li> <strong>Publish your blog</strong>
+          <p>After you've written your blog, click on the publish button(indicated with arrow 2) </p>
+          <img src="img/editor2.png" class="inpageimg" alt="">
+
+        </li>
+      </ol>
+
+    </ol>
+    <br>
+    <hr>
+    <br>
+    <h1 id="precautions">Few points to keep in mind while writing a blog</h1>
+    <br>
+    <ul>
+      <ul>
+        <li>Try not to use symbols at the start of a new line as it may cause errors with JavaScript.</li>
+        <li>Start on a new line when using symbols for links, youtube videos, headings, and images. Initialize with the symbol, and close with the same symbol for youtube videos and links. And then continue writing your content from a new line
+          (please remember to continue with a new line every time). </li>
+          <li>For now, use only one categoryfor a blog</li>
+
+
+      </ul>
+    </ul>
+    <br>
+    <hr>
+    <br>
+    <h1 id="rules">Rules</h1>
+    <br>
+    <p>You must follow some rules while using this website or writing a blog.</p>
+    <ol>
+      <ol>
+        <li> <strong>Be respectful to others</strong>
+          <p> No death threats, sexism, hate speech,
+            racism (NO N WORD, this includes soft N).</p>
+          <p>No doxxing, swatting, witch hunting.</p>
+        </li>
+        <li> <strong>No Advertising.</strong>
+          <p> We do not allow advertising here of any
+            kind.</p>
+        </li>
+
+        <li> <strong>No NSFW content.</strong>
+          <p>Anything involving R-rated content is not allowed.</p>
+          <p>NSFW = Not Safe for Work.</p>
+        </li>
+
+
+        <li> <strong>No spamming.</strong>
+          <p>Do not write spam blogs! You will be warned first by the deletion of your blog. For the second time, the user's account will be deleted.</p>
+        </li>
+
+
+        <li> <strong>Do not write about sensitive topics</strong>
+          <p>This isn't a debating server, keep sensitive topics out of here.</p>
+        </li>
+
+        <li> <strong>No malicious content</strong>
+          <p>No grabify links, viruses, crash videos, links to viruses, or token
+            grabbers. These will result in account deletion. </p>
+        </li>
+
+        <li> <strong>Banner, images, emoji Rules</strong>
+          <p>No NSFW allowed.</p>
+          <p>No racism.</p>
+          <p> No brightly flashing pictures to induce an epileptic attack.</p>
+        </li>
+
+      </ol>
+
+
+    </ol>
+
+    <br>
+    <hr>
+    <br>
+    <h1 id="help">Help and support</h1>
+    <p>If you want some help with blogs, report a blog or delete a blog you wrote, message in the "report-delete" channel on the discord server.</p>
+    <p>Use the following format-</p>
+    <br>
+    <p>Blog- "put blog title here"</p>
+    <p>Action- delete/report/help</p>
+    <p>Reason- reason for deletion or reporting</p>
+    <br>
+    <p>We will soon look into your problem and take suitable action.</p>
+
+
+
+
+
+    <br>
+    <br>
+    Thank you
+    <br><br>
+  </div>
+  <footer>
+    <div class="allrights">
+      <div class="rights">
+        <p> &copy; c23. 2022-2023. All Rights Reserved</p>
+        <br>
+
+
+      </div>
+
+
+    </div>
+
+  </footer>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+  <script src="js/nav.js"></script>
+
+</body>
+
+</html>

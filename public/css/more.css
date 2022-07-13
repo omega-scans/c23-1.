@@ -1,0 +1,15 @@
+h1 {
+  text-align: center;
+}
+.aboutus, .docspage {
+  padding: 0 25px;
+  margin: auto;
+  text-align: left;
+}
+ul, ol{
+  padding-left: 15px
+}
+.inpageimg{
+  object-fit: cover;
+  width: 100%;
+}
