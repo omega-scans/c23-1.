@@ -16,13 +16,14 @@
 // TODO: Replace the following with your app's Firebase project configuration
 // See: https://firebase.google.com/docs/web/learn-more#config-object
 const firebaseConfig = {
-    apiKey: "AIzaSyAamRfpTudLqF-LZi7fK4LibNuSqDE8p8E",
-  authDomain: "c23-blogs.firebaseapp.com",
-  projectId: "c23-blogs",
-  storageBucket: "c23-blogs.appspot.com",
-  messagingSenderId: "703647952217",
-  appId: "1:703647952217:web:949607d82c769ae5bbb048"
+    apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: ""
 };
+// config keys are not mentioned for privacy reasons 
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
